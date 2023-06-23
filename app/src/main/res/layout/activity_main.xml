@@ -1,0 +1,39 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Por favor, proporciona el número al cual enviaré la información de ubicación."/>
+
+    <ImageView
+        android:layout_marginTop="30sp"
+        android:layout_width="600px"
+        android:layout_height="600px"
+        android:layout_gravity="center"
+        android:src="@drawable/gps"></ImageView>
+
+    <EditText
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ettelefono"
+        android:hint="Teléfono"
+        android:textSize="25sp"
+        android:inputType="phone"
+        android:layout_marginHorizontal="40dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnguardar"
+        android:text="Guardar numero"
+        android:textSize="25sp"
+        android:layout_marginHorizontal="40dp"
+        android:layout_below="@+id/ettelefono"
+        android:layout_marginTop="60sp"/>
+
+</LinearLayout>
